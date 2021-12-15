@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.593a72ee.chunk.css",
+    "main.js": "/static/js/main.de5e75d8.chunk.js",
+    "main.js.map": "/static/js/main.de5e75d8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.91238d06.js",
+    "runtime-main.js.map": "/static/js/runtime-main.91238d06.js.map",
+    "static/js/2.ae82fcb0.chunk.js": "/static/js/2.ae82fcb0.chunk.js",
+    "static/js/2.ae82fcb0.chunk.js.map": "/static/js/2.ae82fcb0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.593a72ee.chunk.css.map": "/static/css/main.593a72ee.chunk.css.map",
+    "static/js/2.ae82fcb0.chunk.js.LICENSE.txt": "/static/js/2.ae82fcb0.chunk.js.LICENSE.txt",
+    "static/media/deeds.943cb65c.png": "/static/media/deeds.943cb65c.png",
+    "static/media/desire.d46885c9.png": "/static/media/desire.d46885c9.png",
+    "static/media/game.675c6b81.png": "/static/media/game.675c6b81.png",
+    "static/media/giphy.98e66824.png": "/static/media/giphy.98e66824.png",
+    "static/media/gm.570e00b1.png": "/static/media/gm.570e00b1.png",
+    "static/media/gpt.2e0c35e8.png": "/static/media/gpt.2e0c35e8.png",
+    "static/media/lots.de732539.png": "/static/media/lots.de732539.png",
+    "static/media/mk.b01c9047.jpg": "/static/media/mk.b01c9047.jpg",
+    "static/media/mk2.0c1ede81.JPG": "/static/media/mk2.0c1ede81.JPG",
+    "static/media/mogo.819e2ece.png": "/static/media/mogo.819e2ece.png",
+    "static/media/notes.a1da6191.png": "/static/media/notes.a1da6191.png",
+    "static/media/water.1b961a59.png": "/static/media/water.1b961a59.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91238d06.js",
+    "static/js/2.ae82fcb0.chunk.js",
+    "static/css/main.593a72ee.chunk.css",
+    "static/js/main.de5e75d8.chunk.js"
+  ]
+}

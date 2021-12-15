@@ -1,0 +1,29 @@
+.competencies {
+  text-align: right;
+  height: 627px;
+  /* border: 2px solid orange; */
+}
+ul {
+  margin-left: 7rem;
+}
+li {
+  list-style: none;
+}
+.competencies__item {
+  margin-bottom: 4rem;
+}
+.item-title {
+  margin-bottom: 0.7rem;
+}
+
+@media screen and (max-width: 599px) {
+  .competencies {
+    text-align: left;
+  }
+  ul {
+    margin-left: 0;
+  }
+  .competencies__item {
+    margin-bottom: 2rem;
+  }
+}

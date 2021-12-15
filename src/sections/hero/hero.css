@@ -1,0 +1,144 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* order: 8px solid blue; */
+}
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  /* border: 4px solid yellow; */
+}
+.hero__name {
+  position: absolute;
+  left: 0;
+  top: 20rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.name-social {
+  margin-top: 5rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: fadeInUp 1.5s ease 2s forwards;
+}
+.social--icon svg {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.social--icon svg path {
+  transition: all 0.2s ease-in-out;
+}
+/* .social--icon:hover.social--icon svg {
+  font-size: 1.7rem;
+} */
+.social--icon:hover.social--icon svg path {
+  fill: rgb(99, 30, 155);
+}
+.hero__competencies {
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  z-index: 9000;
+}
+.hero__works,
+.hero__works-two {
+  max-width: 60%;
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+/* Animations */
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 10000;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    transform: translateY(-10px);
+    opacity: 0;
+    z-index: 8000;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.4s ease forwards;
+}
+.fade-in {
+  animation: fadeInUp 0.5s ease 0.2s forwards;
+}
+
+/* typewriter */
+.name-typewriter {
+  position: relative;
+  width: max-content;
+  margin-bottom: 0.8rem;
+}
+
+.name-typewriter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.name-typewriter::before {
+  background: var(--color-bg);
+  animation: typewriter 2s ease forwards;
+}
+
+.name-subtitle {
+  font-size: var(--font-med);
+  font-weight: 400;
+  color: var(--color-text);
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: fadeInUp 1.5s ease 2s forwards;
+}
+
+/* Media queries */
+@media screen and (max-width: 599px) {
+  .wrapper {
+    left: 1rem;
+    right: 1rem;
+  }
+  .hero__name {
+    width: 100%;
+    top: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .name-social {
+    margin-top: 0;
+  }
+  .hero__competencies {
+    top: 15rem;
+  }
+  .hero__works,
+  .hero__works-two {
+    max-width: 100%;
+    top: 15rem;
+    left: 0;
+  }
+}

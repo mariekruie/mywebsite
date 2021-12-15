@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  text-align: right;
+  border-bottom: 2px solid var(--color-text);
+  z-index: 2000;
+}
+
+.header a {
+  font-weight: 700;
+}
+.header a:hover {
+  color: purple;
+}
