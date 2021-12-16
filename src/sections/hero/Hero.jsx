@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import {Competencies, Works, WorksTwo, WorksMobile} from '../../components';
+import {Competencies, Works, WorksTwo, WorksMobile, WorksTwoMobile} from '../../components';
 import './hero.css';
 
 class Hero extends Component {
@@ -98,7 +98,8 @@ class Hero extends Component {
                     </div>
 
                     <div className={heroWorksTwo}>
-                        <WorksTwo/>
+                        {query.matches && <WorksTwoMobile/>}
+                        {!query.matches && <WorksTwo/>}
                     </div>
                     
                 </div>
