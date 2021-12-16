@@ -119,20 +119,31 @@
   .wrapper {
     left: 1rem;
     right: 1rem;
+    top: 3.423rem;
+    bottom: 3.423rem;
   }
   .hero__name {
     top: 1rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .name-social {
+    margin-top: 0;
   }
   .hero__competencies {
     top: 8rem;
   }
   .hero__works,
   .hero__works-two {
+    max-width: 100%;
     top: 8rem;
+    left: 0;
   }
 }
 
-@media screen and (max-width: 899px) {
+@media (min-width: 600px) and (max-width: 899px) {
   .wrapper {
     left: 2rem;
     right: 2rem;
