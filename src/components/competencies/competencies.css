@@ -1,6 +1,6 @@
 .competencies {
   text-align: right;
-  height: 627px;
+  /* height: 627px; */
   /* border: 2px solid orange; */
 }
 ul {
@@ -11,6 +11,9 @@ li {
 }
 .competencies__item {
   margin-bottom: 4rem;
+}
+.competencies__item:last-child {
+  margin-bottom: 0;
 }
 .item-title {
   margin-bottom: 0.7rem;

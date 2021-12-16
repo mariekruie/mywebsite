@@ -82,19 +82,22 @@ class WorksMobile extends Component{
                 </h3>
 
                 <div className="works-mobile__content flex">
-                    <div className="works-mobile__btn" onClick={this.handlePrevClick}>   
-                      <FontAwesomeIcon icon={faAngleLeft} size="1x"/>
-                    </div>
-
-
-                    <a href={works[idx].url} className="works-mobile__item" target="_blank" rel="noopener noreferrer">
+                   
+                    <a href={works[idx].url} className="works-mobile__img" target="_blank" rel="noopener noreferrer">
                         <div style={{backgroundImage: `url(${works[idx].image})`}}></div>
-                        <p>{works[idx].title}</p>
                     </a>
 
-                    <div className="works-mobile__btn" onClick={this.handleNextClick}>   
-                      <FontAwesomeIcon icon={faAngleRight} size="1x"/>
+                    <div className="works-mobile__text flex jc-sb ai-c">
+                        <div className="works-mobile__btn" onClick={this.handlePrevClick}>   
+                          <FontAwesomeIcon icon={faAngleLeft} size="1x"/>
+                        </div>
+                        <p>{works[idx].title}</p>
+                        <div className="works-mobile__btn" onClick={this.handleNextClick}>   
+                        <FontAwesomeIcon icon={faAngleRight} size="1x"/>
+                        </div>
                     </div>
+
+    
                 </div>
                
             </div>
