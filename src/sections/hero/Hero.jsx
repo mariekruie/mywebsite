@@ -41,7 +41,7 @@ class Hero extends Component {
                 heroWorksTwo: "hero__works-two"
             });
         }
-        else if (offset !== 0 && offset< this.props.height / 2) {
+        else if (offset !== 0 && offset<= this.props.height / 2) {
             // window.scrollTo({
             //     top: this.props.height / 4,
             //     behavior: "smooth"

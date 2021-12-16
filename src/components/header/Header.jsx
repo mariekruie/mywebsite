@@ -8,11 +8,11 @@ class Header extends Component {
        infoActive: false
    };
 
-   handleClick = () => {
+   handleClick = () => { 
        this.setState({
            infoActive: !this.state.infoActive
        })
-    //    window.document.body.style.backgroundColor = "#f0ebdb";
+       window.document.body.style.backgroundColor = "#fff";
    }
 
    render(){

@@ -34,16 +34,7 @@ class Info extends Component {
                 infoTextTwo: "info__text two"
             })
         } 
-        else if(offset !== 0 && offset< this.props.height / 3){
-            this.setState({
-                infoGreeting: "info__greeting fade-out",
-                infoImgOne: "info__img one fade-out",
-                infoImgTwo: "info__img two fade-in",
-                infoTextOne: "info__text one fade-in",
-                infoTextTwo: "info__text two"
-            })
-        }
-        else if(offset>= this.props.height / 3 && offset<this.props.height){
+        else if(offset !== 0 && offset< this.props.height / 2){
             this.setState({
                 infoGreeting: "info__greeting fade-out",
                 infoImgOne: "info__img one fade-out",
@@ -69,34 +60,34 @@ class Info extends Component {
 
         return (
             <div className="info container">
-            <div className="info__wrapper container">
+                <div className="info__wrapper container">
 
 
-                <div className={infoImgOne} style={{ backgroundImage: `url(${mk2})` }}></div>
+                    <div className={infoImgOne} style={{ backgroundImage: `url(${mk2})` }}></div>
 
-                <div className={infoImgTwo} style={{ backgroundImage: `url(${mk})` }}></div>
-    
-                <div className={infoGreeting}>
-                    <h1>Привет</h1>
-                    <h1>Hola</h1>
-                    <h1>Hey</h1>
-                    <h1>Hoi</h1>
-                    <h1>Привет</h1>
+                    <div className={infoImgTwo} style={{ backgroundImage: `url(${mk})` }}></div>
+        
+                    <div className={infoGreeting}>
+                        <h1>Привет</h1>
+                        <h1>Hola</h1>
+                        <h1>Hey</h1>
+                        <h1>Hoi</h1>
+                        <h1>Привет</h1>
+                    </div>
+
+                    <div className={infoTextOne}>
+                        <p>Я начинающий фронтенд разработчик с бэкграундом в области брендинга и коммуникационных технологий. 
+                        </p>
+                    </div>
+                    <div className={infoTextTwo}>
+                        <p>
+                        Полтора года назад я погрузилась в мир веб разработки. Теперь мой каждый день - это постоянное изучение инструментов программирования (кажется это нескончаемый процесс), research и vs code. Обучаюсь самостоятельно.
+                        Умею и люблю работать в команде. 
+                        </p>
+                    </div>
+                    
                 </div>
-
-                <div className={infoTextOne}>
-                    <p>Я начинающий фронтенд разработчик с бэкграундом в области брендинга и коммуникационных технологий. 
-                    </p>
-                </div>
-                <div className={infoTextTwo}>
-                    <p>
-                    Полтора года назад я погрузилась в мир веб разработки. Теперь мой каждый день - это постоянное изучение инструментов программирования (кажется это нескончаемый процесс), research и vs code.
-                    Умею и люблю работать в команде. 
-                    </p>
-                </div>
-                
             </div>
-        </div>
         )
     }
 }

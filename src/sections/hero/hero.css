@@ -1,9 +1,8 @@
 .hero {
   position: relative;
-  width: 100%;
   height: 100%;
   overflow: hidden;
-  border: 8px solid blue;
+  /* border: 8px solid blue; */
 }
 .wrapper {
   position: fixed;
@@ -11,7 +10,7 @@
   left: 0;
   right: 0;
   top: 0;
-  border: 4px solid yellow;
+  /* border: 4px solid yellow; */
 }
 .hero__name {
   position: absolute;
@@ -41,7 +40,7 @@
   top: 10rem;
   right: 0;
   z-index: 9000;
-  border: 4px solid red;
+  /* border: 4px solid red; */
 }
 .hero__works,
 .hero__works-two {
@@ -51,7 +50,7 @@
   right: 0;
   opacity: 0;
   transform: translateY(40px);
-  border: 4px solid red;
+  /* border: 4px solid red; */
 }
 
 /* Animations */
@@ -120,12 +119,29 @@
   .wrapper {
     left: 1rem;
     right: 1rem;
+  }
+  .hero__name {
+    top: 1rem;
+  }
+  .hero__competencies {
+    top: 8rem;
+  }
+  .hero__works,
+  .hero__works-two {
+    top: 8rem;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .wrapper {
+    left: 2rem;
+    right: 2rem;
     top: 3.423rem;
     bottom: 3.423rem;
   }
   .hero__name {
     width: 100%;
-    top: 1rem;
+    top: 4rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
@@ -134,12 +150,12 @@
     margin-top: 0;
   }
   .hero__competencies {
-    top: 8rem;
+    top: 17rem;
   }
   .hero__works,
   .hero__works-two {
     max-width: 100%;
-    top: 8rem;
+    top: 17rem;
     left: 0;
   }
 }
