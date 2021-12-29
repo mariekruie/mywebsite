@@ -4,12 +4,13 @@ import { Hero, Info} from './sections';
 import {Header, Footer} from './components';
 import './App.css';
 
+// const h = document.documentElement.clientHeight;
 const h = window.innerHeight;
 class App extends Component {
 
 
   state={
-    height: h + 800,
+    height: h,
   }
 
 

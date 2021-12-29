@@ -30,7 +30,7 @@ body {
 
 .app {
   position: relative;
-  height: calc(800px + 100vh);
+  height: calc(100vh * 2);
   /* border: 3px solid green; */
 }
 

@@ -34,7 +34,7 @@ class Info extends Component {
                 infoTextTwo: "info__text two"
             })
         } 
-        else if(offset !== 0 && offset< this.props.height / 2){
+        else if(offset>= this.props.height*0.25 && offset < this.props.height*0.75){
             this.setState({
                 infoGreeting: "info__greeting fade-out",
                 infoImgOne: "info__img one fade-out",
@@ -43,7 +43,7 @@ class Info extends Component {
                 infoTextTwo: "info__text two"
             })
         }
-        else{
+        else if(offset>= this.props.height*0.75){
             this.setState({
                 infoGreeting: "info__greeting fade-out",
                 infoImgOne: "info__img one fade-out",

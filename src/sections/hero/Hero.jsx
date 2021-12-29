@@ -25,9 +25,9 @@ class Hero extends Component {
     handleScroll = () => {
         let offset = window.pageYOffset;
 
-        // console.log(`Offset ${offset}`);
+        console.log(`Offset ${offset}`);
 
-        // console.log(this.props.height)
+        console.log(this.props.height)
        
     
 
@@ -42,9 +42,9 @@ class Hero extends Component {
                 heroWorksTwo: "hero__works-two"
             });
         }
-        else if (offset !== 0 && offset<= this.props.height / 2) {
+        else if ( offset>= this.props.height*0.25 && offset < this.props.height*0.75 ) {
             // window.scrollTo({
-            //     top: this.props.height / 4,
+            //     top: this.props.height * 0.5,
             //     behavior: "smooth"
             // });
             this.setState({
@@ -53,7 +53,7 @@ class Hero extends Component {
                 heroWorksTwo: "hero__works-two"
             });
         }
-        else{
+        else if(offset>= this.props.height*0.75){
             // window.scrollTo({
             //     top: this.props.height,
             //     behavior: "smooth"
