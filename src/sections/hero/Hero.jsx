@@ -15,6 +15,7 @@ class Hero extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
+
     }
 
     componentWillUnmount(){
@@ -74,7 +75,7 @@ class Hero extends Component {
         return (
 
             <div className="hero container">
-                <div className="wrapper container">
+                <div className="wrapper container" id="fullpage">
                 
                     <div className="hero__name flex">
                         <div>
