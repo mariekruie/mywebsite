@@ -11,10 +11,12 @@
     <link rel="stylesheet" type="text/css" href="fullpage.css" />
     <script>
       if (history.scrollRestoration) {
-    history.scrollRestoration = 'manual';
+          history.scrollRestoration = 'manual';
       } else {
           window.onbeforeunload = function () {
               window.scrollTo(0, 0);
+              // let location = window.location;
+              // location = 'http://localhost:3000';
           }
       }
     </script>

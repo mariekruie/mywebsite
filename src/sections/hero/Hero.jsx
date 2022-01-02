@@ -7,6 +7,11 @@ import './hero.css';
 
 class Hero extends Component {
 
+    // constructor(){
+    //     super();
+    //     window.scrollTo(0, 0);
+    // }
+
     state= {
         heroCompetencies: "hero__competencies",
         heroWorks: "hero__works",

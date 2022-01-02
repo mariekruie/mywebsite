@@ -4,6 +4,7 @@ import mk2 from "../../images/mk2.JPG";
 import "./info.css";
 
 class Info extends Component {
+
     state= {
         infoGreeting: "info__greeting",
         infoImgOne: "info__img one",
