@@ -19,9 +19,9 @@ class WorksMobile extends Component{
                 url: 'https://notforgetlist.netlify.app/'
             },
             {
-                title:'Casting lots',
+                title:'Dice & lots',
                 image: lots,
-                url: 'https://castinglots.netlify.app/'
+                url: 'https://dice-and-lots.netlify.app'
             },
             {
                 title:'Water app',

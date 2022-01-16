@@ -21,9 +21,9 @@ class Works extends Component {
                         <div style={{backgroundImage: `url(${deeds})`}}></div>
                         <p>To-do</p>
                     </a>
-                    <a href="https://castinglots.netlify.app/" className="works__item" target="_blank" rel="noopener noreferrer">
+                    <a href="https://dice-and-lots.netlify.app" className="works__item" target="_blank" rel="noopener noreferrer">
                         <div style={{backgroundImage: `url(${lots})`}}></div>
-                        <p>casting lots</p>
+                        <p>dice & lots</p>
                     </a>
                     <a href="https://twolitersaday.netlify.app/" className="works__item" target="_blank" rel="noopener noreferrer">
                         <div style={{backgroundImage: `url(${water})`}}></div>
