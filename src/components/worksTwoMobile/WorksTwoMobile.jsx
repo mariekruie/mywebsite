@@ -23,7 +23,7 @@ class WorksTwoMobile extends Component {
             {
                 title:'web layout',
                 image: desire,
-                url: 'https://layout-web-one.netlify.app/'
+                url: 'https://loved-once.netlify.app/'
             },
             {
                 title:'gpt',

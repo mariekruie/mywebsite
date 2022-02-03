@@ -20,7 +20,7 @@ const WorksTwo = () => {
                     <div style={{ backgroundImage: `url(${mogo})` }}></div>
                     <p>web layout</p>
                 </a>
-                <a href="https://layout-web-one.netlify.app/" className="worksTwo__item" target="_blank" rel="noopener noreferrer">
+                <a href="https://loved-once.netlify.app/" className="worksTwo__item" target="_blank" rel="noopener noreferrer">
                     <div style={{ backgroundImage: `url(${desire})` }}></div>
                     <p>web layout</p>
                 </a>

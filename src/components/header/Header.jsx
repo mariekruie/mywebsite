@@ -12,7 +12,6 @@ class Header extends Component {
        this.setState({
            infoActive: !this.state.infoActive
        })
-       window.document.body.style.backgroundColor = "#fff";
    }
 
    render(){
