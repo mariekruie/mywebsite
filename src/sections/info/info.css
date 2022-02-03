@@ -42,7 +42,7 @@
   width: 600px;
   height: 430px;
   top: 10rem;
-  left: calc(100vw / 3);
+  left: calc(100vw / 2.5);
   opacity: 0;
 }
 
@@ -61,7 +61,7 @@
   position: absolute;
   width: 30%;
   top: 10rem;
-  left: 15rem;
+  left: 10rem;
   opacity: 0;
   /* border: 2px solid rgb(109, 6, 87); */
 }
@@ -155,8 +155,9 @@
   .info__img.two {
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 45vh;
+    margin-top: 2rem;
+    width: 90vw;
+    height: 35vh;
   }
   .info__text {
     width: 100%;
