@@ -1,27 +1,20 @@
 import React, {Component} from 'react';
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import './header.css';
 
 class Header extends Component {
 
-   state={
-       infoActive: false
-   };
-
-   handleClick = () => { 
-       this.setState({
-           infoActive: !this.state.infoActive
-       })
-   }
 
    render(){
 
-    const {infoActive} = this.state;
-
     return(
-        <div className="header container--pdX">
-            {!infoActive && <Link to="/info" onClick={this.handleClick}>info</Link>}
-            {infoActive && <Link to="/" onClick={this.handleClick}>home</Link>}
+        <div className="header">
+            <div className="header__wrapper flex jc-sb ai-c">
+                <NavLink to="/" className={({ isActive }) =>(isActive ? "active" : "")}>home</NavLink>
+                <NavLink to="/about" className={({ isActive }) =>(isActive ? "active" : "")}>about</NavLink>
+                <NavLink to="/projects" className={({ isActive }) =>(isActive ? "active" : "")}>projects</NavLink>
+                <NavLink to="/cv" className={({ isActive }) =>(isActive ? "active" : "")}>CV</NavLink>
+            </div>
         </div>
     )
    }

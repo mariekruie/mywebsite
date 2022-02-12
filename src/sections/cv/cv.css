@@ -1,0 +1,21 @@
+.cv {
+  width: 100%;
+  height: 100%;
+}
+.cv__wrapper {
+  width: 100%;
+  height: 100%;
+}
+iframe {
+  border: none;
+  width: 70%;
+  height: 80%;
+}
+
+@media screen and (max-width: 599px) {
+  iframe {
+    border: none;
+    width: 90%;
+    height: 80%;
+  }
+}

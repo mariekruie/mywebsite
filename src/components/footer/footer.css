@@ -3,16 +3,9 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 1rem 0;
+  padding: 1.8rem 0;
   text-align: left;
+  /* background-color: var(--color-blue); */
   border-top: 2px solid var(--color-text);
   z-index: 2000;
-}
-
-.footer svg {
-  font-size: 1.5rem;
-}
-
-.footer svg.scrolling path {
-  fill: crimson;
 }

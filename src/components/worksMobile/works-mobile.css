@@ -1,11 +1,12 @@
-.works-mobile__title {
-  text-align: left;
+.works-mobile {
+  width: 100%;
+  height: 100%;
 }
 .works-mobile__content {
   width: 100%;
+  height: 100%;
+  padding: 0 1rem;
   flex-direction: column;
-
-  margin-top: 4rem;
 }
 .works-mobile__img {
   width: 100%;
@@ -36,23 +37,14 @@
   background-repeat: no-repeat;
 }
 
+.works-mobile__btn svg {
+  fill: var(--color-blue);
+}
+
+.works-icon {
+  color: var(--color-text);
+}
+
 .works-mobile__btn:last-child {
   text-align: right;
 }
-
-/* @media screen and (max-width: 599px) {
-  .works-mobile__title {
-    text-align: left;
-  }
-  .works-mobile__content {
-    width: 100%;
-  }
-  .works-mobile__item {
-    width: 100%;
-    text-align: left;
-    flex-basis: 100%;
-  }
-  .works-mobile__item div {
-    width: 100%;
-  }
-} */

@@ -6,11 +6,30 @@
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 
-  --color-bg: #f2f2f2;
-  /* --color-bg-2: #f0ebdb; */
-
   --color-text: #25282a;
-  --color-subtext: #ff8a71;
+
+  --color-bg: #f2f2f2;
+  --color-salmon: #ff8a71;
+  --color-blue: #5ca5a5;
+  --color-yellow: #fcc117;
+  --color-red: #e40000;
+
+  /* new */
+
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+
+  /* $shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
+    -0.2rem -0.2rem 0.5rem var(--white);
+  $inner-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2),
+    inset -0.2rem -0.2rem 0.5rem var(--white); */
 
   /* 12px, 16px, 20px, 52px, 62px */
   --font-sml: 0.785rem;
